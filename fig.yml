@@ -2,4 +2,8 @@ ssh:
   build: .
   ports:
     - "22:22"
+  volumes:
+    - data/root:/root
+    - data/home:/home
+    - data/srv:/srv
 

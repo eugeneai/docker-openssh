@@ -14,6 +14,7 @@ ADD sshd_config /etc/ssh/sshd_config
 ADD run.sh /run.sh
 RUN chmod 0755 /run.sh
 
+VOLUME ["/root", "/home", "/srv"]
 EXPOSE 22
 
 ENTRYPOINT ["/run.sh"]
