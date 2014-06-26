@@ -1,0 +1,5 @@
+ssh:
+  build: .
+  ports:
+    - "22:22"
+

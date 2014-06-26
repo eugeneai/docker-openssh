@@ -1,10 +1,11 @@
 docker-openssh
 ===============
 
-Docker build for openssh on Arch.
+Docker build for OpenSSH on Archlinux.
 
-Note
+Features
 -------
 
- - Password-less root access :P
+ * Password-less root access :P
+ * Fig specification
 
