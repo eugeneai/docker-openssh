@@ -2,10 +2,7 @@
 
 This build creates an OpenSSH container based on Archlinux.
 
-## Features
-
- * Easy to use password-less root access :P
- * Fig specification
+*The container uses an easy-to-use passwordless root access :P*
 
 ## Installation
   Download a prebuilt image from the registry.
@@ -24,7 +21,7 @@ This build creates an OpenSSH container based on Archlinux.
   docker run -d -p 22:22 lucacesari/openssh
   ```
 
-  * Connect to the container w/o password.
+  * Connect to the container.
   ```
   ssh root@localhost -p 22
   ```
