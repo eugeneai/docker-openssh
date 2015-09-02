@@ -13,7 +13,7 @@
 Port 22
 #AddressFamily any
 #ListenAddress 0.0.0.0
-#ListenAddress ::
+ListenAddress ::
 
 # The default requires explicit activation of protocol 1
 Protocol 2
