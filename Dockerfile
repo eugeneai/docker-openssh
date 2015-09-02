@@ -1,8 +1,7 @@
 # Dockerfile for Openssh on Archlinux
+FROM eugeneai/archlinux:kampka
 
-FROM base/archlinux
-
-MAINTAINER Luca Cesari <luc@cesari.me>
+MAINTAINER Evgeny Cherkashin <eugeneai@irnok.net>
 
 RUN pacman --noconfirm -Sy openssh &&\
     rm -r /var/cache/pacman/pkg && \
