@@ -15,5 +15,5 @@ fi
 
 echo "Starting SSH daemon..."
 
-exec /usr/bin/sshd -D -e -4
+exec /usr/bin/sshd -D -e
 
